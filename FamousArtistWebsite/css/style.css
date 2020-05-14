@@ -1,0 +1,353 @@
+@font-face {
+  font-family: KaushanScript-Regular;
+  src: url(../fonts/KaushanScript-Regular.otf);
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+/*text for the screen reader*/
+.offscreen {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: OpenSans-SemiBold;
+}
+
+p {
+  font-family: OpenSans-SemiBold;
+}
+
+h1, h2, h3, h4 {
+  font-family: OpenSans-SemiBold;
+}
+
+body {
+  background-color: #2A2521;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  height: 366px;
+}
+
+.top {
+  background-color: #EEE4DB;
+  height: 240px;
+  margin: 0px;
+}
+
+.social .fab {
+  color: #6B5E5C;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.social {
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+.center {
+  margin: 0px auto 0px auto;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  width: 1140px;
+}
+
+.logo {
+  position: absolute;
+  top: 98px;
+  left: 55px;
+  width: 300px;
+  height: 114px;
+  background: rgba(0, 0, 0, 0.75);
+  padding-left: 10px;
+}
+
+.logo h1 {
+  font-family: KaushanScript-Regular;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin: 0px;
+}
+
+.logo p {
+  color: #CD5857;
+  font-size: 17px;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+/*****Menu - Nouman, Anna*****/
+.menu-bar {
+  background-color: black;
+  height: 40px;
+  padding: 22px 0px 27px 0px;
+}
+
+.menu-text ul {
+  width: 700px;
+  float: left;
+}
+
+.menu-text ul li {
+  display: inline-block;
+}
+
+.menu-item {
+  color: white;
+  font-size: 15px;
+  padding: 10px 15px;
+}
+
+.menu-text a:hover {
+  background-color: #CD5857;
+}
+
+.selected {
+  background-color: #CD5857;
+}
+
+.search {
+  float: right;
+  margin: 5px 35px 0px 0px;
+  width: 345px;
+}
+
+.search button {
+  background-color: #CD5857;
+  border: none;
+  margin: 0px 0px 0px 3px;
+  font-size: 24px;
+  color: white;
+  height: 35px;
+  width: 35px;
+  float: left;
+}
+
+.search input {
+  cursor: text;
+  height: 35px;
+  width: 280px;
+  font-size: 13px;
+  border: none;
+  padding-left: 5px;
+  float: left;
+}
+
+/******Profile - Jude*********/
+
+.profile {
+  margin: 70px 0px 0px 35px;
+}
+
+.article h1 {
+  font-weight: lighter;
+  color: #F7F7F7;
+  font-size: 31px;
+  margin-bottom: 25px;
+}
+
+.article h2 {
+  font-size: 17px;
+  color: #CD5857;
+  margin-top: 20px;
+}
+
+.article p {
+  font-size: 16px;
+  color: #a3958d;
+  width: 600px;
+}
+
+.portrait img {
+  position: absolute;
+  top: 470px;
+  left: 800px;
+  height: 200px;
+  margin-top: 5px;
+}
+
+.click-for-more {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: #CD5857;
+  width: 240px;
+  padding: 20px;
+  margin: 70px auto 0px auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+/******Galery-Mildred, Zahra*********/
+
+.galery {
+  background-color: #EEE4DB;
+  width: 100%;
+  margin-top: 740px;
+  height: 770px;
+}
+
+.gallery-wall h1 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #ffffff;
+  padding-top: 70px;
+  text-transform: uppercase;
+}
+
+.gallery-wall {
+  width: 1140px;
+  padding-left: 17px;
+  height: 730px;
+  margin: 0px auto 0px auto;
+  left: 0;
+  right: 0;
+}
+
+.square {
+  width: 350px;
+  height: 285px;
+  margin: 12px 14px 0px 14px;
+  background-color: #e7d7cb;
+  border: 1px solid DarkGoldenrod;
+  text-align: center;
+  display: inline-block;
+  padding: 0px;
+  float: left;
+}
+
+.photo-title {
+  font-family: OpenSans-SemiBold;
+  font-size: 14px;
+  text-align: center;
+  color: #CD5957;
+  margin: 8px auto 0px auto;
+}
+
+.picture-inside {
+  margin-top: 15px;
+}
+
+.view-more a {
+  color: #CD5957;
+  font-size: 14px;
+}
+
+.view-more {
+  margin: 0px auto 20px;
+  width: 1140px;
+  text-align: center;
+}
+
+/******Footer - Zahra*********/
+
+.footer-image {
+  height: 430px;
+  width: 100%;
+  position: absolute;
+  background-image: url("../img/footer_background.jpg");
+  background-size: 150%;
+  background-position-x: 100%;
+  opacity: 0.07;
+}
+
+#footer {
+  height: 340px;
+}
+
+.footer-redline {
+  width: 100%;
+  height: 10px;
+  background-color: #CD5857;
+}
+
+.footer-content {
+  height: 235px;
+  width: 1140px;
+  padding-top: 40px;
+  margin: 0px auto 0px auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.footer-logo {
+  width: 300px;
+  float: right;
+  margin-right: 10px;
+}
+
+.famous-artist {
+  font-family: KaushanScript-Regular;
+  font-size: 37px;
+  color: #ffffff;
+  margin: 30px 0px 10px 0px;
+  width: 250px;
+}
+
+.complete-works {
+  color: #CD5857;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.footer-social-icons ul {
+  padding-left: 10px;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.footer-social-icons ul li {
+  display: inline-block;
+  margin: 0px 5px 5px 0px;
+}
+
+.footer-social-icons img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-creamline {
+  width: 100%;
+  height: 2px;
+  background-color: #EEE4DB;
+}
+
+.footer-legal {
+  width: 1140px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+  font-family: OpenSans-SemiBold;
+  font-size: 13px;
+  color: #a0948d;
+}
+
+.copyright {
+  float: left;
+  padding-top: 30px;
+}
+
+.licens {
+  float: right;
+  padding-top: 30px;
+}
+
+.licens a {
+  color: #57524f;
+}

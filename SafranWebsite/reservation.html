@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/9240eef849.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <meta charset="utf-8">
+  <title>Safran</title>
+</head>
+
+<body>
+  <div class="content">
+    <header>
+      <div class="top-bar">
+        <div>
+          <div class="logo"><a href="index.html" target="">
+              <img src="img/logo.png" alt="logo" height="60">
+            </a>
+          </div>
+          <div id="x-button" onclick="clickButton()">
+            <span class="first"></span>
+            <span class="middle"></span>
+            <span class="last"></span>
+          </div>
+        </div>
+        <nav class="topnav closed" id="myTopnav">
+          <a href="index.html">Startseite</a>
+          <a href="reservation.html">Reservierung</a>
+          <a href="menu.html">Menü</a>
+          <a href="about.html">Über uns</a>
+          <a href="kontakt.html">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+    <div class="page-content">
+      <div class="main-content">
+        <div class="content-body">
+          <div>
+            <h1>Reservierung</h1>
+            <p>Für Gruppen ab sechs Personen empfehlen wir eine Reservierung mindestens eine Woche im Voraus. Für Walk-Ins setzen wir nur Partys auf der Basis des First Come, First Serve.</p>
+          </div>
+          <form>
+            <label for="name" class="top">Name*</label>
+            <input id="name" type="text" class="name" required><br><br>
+            <label for="t-number">Telefon-Nummer*</label>
+            <input id="t-number" type="number" class="input" required> <br><br>
+            <label for="e-mail">E-mail*</label>
+            <input id="e-mail" type="email" class="input" required><br><br>
+            <label for="date">Datum*</label>
+            <input id="date" type="date" class="date-box" required><br><br>
+            <label for="number-guests">Anzahl der Gäste*</label>
+            <input id="number-guests" type="number" class="input" required><br><br>
+            <label for="comment">Zusätzliche Informationen</label>
+            <textarea id="comment" class="input"></textarea>
+            <p class="mandatory">*Pflichtfeld</p>
+            <div class="submit-button">
+              <button class="btn">Reservieren</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="footertopbar">
+        <img src="img/safrantext.png" width="140" alt="foot">
+      </div>
+
+      <div class="column">
+
+        <div class="lefttext">
+          <br>Telefone: 030-61 56 211,<br>
+          <br>Oranienstr. 172, Berlin-Kreuzberg<br>
+          <br>Berlin, Deutschland<br>
+        </div>
+
+        <div class="icons-center">
+          <div class="social-icons">
+            <ul>
+              <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://facebook.com/https://twitter.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.tripadvisor.com" target="_blank"><i class="fab fa-tripadvisor"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="righttext">
+          <br>Öffnungszeiten:<br>
+          <br> Täglich ab 12:00 Uhr<br>
+          <br> Sonntags ab 13:00 Uhr<br>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-legal">
+          <span>Copyright © 2007-2020</span>
+          <span class="datenschutz"><a href="datenschutz.html">Datenschutzerklärung</a></span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
