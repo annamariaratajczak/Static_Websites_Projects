@@ -6,7 +6,7 @@ This was my first project at my HTML and CSS course. We received a screenshot of
 ![](MyWebsitesScreenShots/FamousArtistWebsite.png)
 
 ### Safran Website
-This was the second project during my HTML and CSS course. The task was to find a website of a restaurant in Berlin that needed a makeover. My team has chosen the website of a Saftan Restaurant http://www.safran-restaurant.de/home.html. My role in this project was to create the homepage and merge the code and unify the code and style of other subpages. 
+This was the second project during my HTML and CSS course. The task was to find a website of a restaurant in Berlin that needed a makeover. My team has chosen the website of the Saftan Restaurant http://www.safran-restaurant.de/home.html. My role in this project was to create the homepage and merge the code and unify the code and style of other subpages. 
 
 ![](MyWebsitesScreenShots/SafranWebsiteDesktop.png)
 ![](MyWebsitesScreenShots/SafranWebsiteMobile.png)
